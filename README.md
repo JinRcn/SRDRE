@@ -12,7 +12,7 @@ The framework SRDRE (Spatially Resolved Detection of RNA Editing) was developed 
 
 ### Data Preparation
 
-SRD-RE requires the following input data types:
+SRDRE requires the following input data types:
 
 - **Aligned sequencing reads** in sorted BAM format (`input.bam`).
 
