@@ -12,6 +12,7 @@ The framework SRDRE (Spatially Resolved Detection of RNA Editing) was developed 
 
 - Perl
 
+
 ### Data Preparation
 
 SRDRE requires the following input data types:
@@ -57,7 +58,7 @@ The detection of RNA editing events in Stereo-seq data involves three main steps
 
 
 
-- **Step 2**: Supervised detection of RNA editing.
+- **Step 2**: Detection of RNA editing.
 
   **Input** 
   
@@ -178,7 +179,7 @@ The detection of RNA editing events in Visium data follows a process similar to 
 
 
 
-- **Step 2**:  Supervised detection of RNA editing 
+- **Step 2**:  Detection of RNA editing 
 
   **Input** 
 
