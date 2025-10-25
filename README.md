@@ -206,7 +206,7 @@ The detection of RNA editing events in Visium data follows a process similar to 
     | Cod    | Chr   | Pos       | RefBase | Coverage | Edited |
     | ------ | ----- | --------- | ------- | -------- | ------ |
     | 100,20 | chr1  | 143749562 | A       | 1        | 0      |
-  | 100,20 | chr11 | 72209575  | T       | 1        | 0      |
+    | 100,20 | chr11 | 72209575  | T       | 1        | 0      |
     | 100,20 | chr12 | 100207186 | A       | 5        | 0      |
   
   - `mouse_brain.sam2base.gz`
@@ -242,7 +242,7 @@ The detection of RNA editing events in Visium data follows a process similar to 
     | Cod    | Chr   | Pos       | RefBase | Coverage | Edited | Area        |
     | ------ | ----- | --------- | ------- | -------- | ------ | ----------- |
     | 100,20 | chr1  | 143749562 | A       | 1        | 0      | Isocortex_1 |
-  | 100,20 | chr11 | 72209575  | T       | 1        | 0      | Isocortex_1 |
+    | 100,20 | chr11 | 72209575  | T       | 1        | 0      | Isocortex_1 |
     | 100,20 | chr12 | 100207186 | A       | 5        | 0      | Isocortex_1 |
   
   - `mouse_brain.REI.tsv`
