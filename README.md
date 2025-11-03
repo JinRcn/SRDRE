@@ -9,6 +9,9 @@ The framework SRDRE (Spatially Resolved Detection of RNA Editing) was developed 
 - [Stereo-seq](#stereo-seq-data)
 - [Visium](#visium-data)
 
+The applicability of our tool has been proven on two widely used spatial transcriptomics platforms, **Stereo-seq and Visium.** We uploaded the test data in the `Demo` directory, and users can directly repeat the analysis by following our step-by-step workflow.
+Use the tool instantly — no installation required.
+
 ## Requirements
 
 - Samtools
@@ -282,7 +285,7 @@ The `-phred 33` option assumes that the quality scores are encoded using the Ill
 <br>
 
 ## Tools comparison
-[Compare analysis](https://github.com/JinRcn/SRDRE/blob/main/Other/comparison.md)
+[Comparative analysis](https://github.com/JinRcn/SRDRE/blob/main/Other/comparison.md)
 <br>
 
 ## Contact
