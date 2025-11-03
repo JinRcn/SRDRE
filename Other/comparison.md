@@ -17,6 +17,7 @@ Our Tool: ~7 hours
 REDItools (REDItoolDenovo.py mode): ~30 hours
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ba3b25bb-bca6-4be1-a8a1-38b326748cef" width="300" height="200">
+  <img src="https://github.com/user-attachments/assets/ba3b25bb-bca6-4be1-a8a1-38b326748cef" width="400" height="300">
 </p>
+
 
