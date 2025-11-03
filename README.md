@@ -74,13 +74,13 @@ The detection of RNA editing events in Stereo-seq data involves three main steps
   
   | Argument           | Description                                                  |
   | :---------------   | :------------------------------------------------------------ |
-  | `--dataset`        | The path to the known A-to-I RNA editing dataset (e.g. Dataset/REDIportalV2.0_Mouse_mm10.txt.gz) |
-  | `--bam`            | The input BAM file, generated from Step 1.                   |
-  | `--outdir`         | The path to the output directory for results.                |
-  | `--samtools`       | The path to the `samtools` executable.                       |
-  | `--suffix`         | The suffix of the input file. [Default: bam]                 |
-  | `--phred`          | The Phred quality score encoding. [Default: 33]              |
-  | `--qual_cutoff  `  | The quality cutoff for base calling. [Default: 20]           |
+  | `--dataset `       | The path to the known A-to-I RNA editing dataset (e.g. Dataset/REDIportalV2.0_Mouse_mm10.txt.gz) |
+  | `--bam `           | The input BAM file, generated from Step 1.                   |
+  | `--outdir `        | The path to the output directory for results.                |
+  | `--samtools `      | The path to the `samtools` executable.                       |
+  | `--suffix `        | The suffix of the input file. [Default: bam]                 |
+  | `--phred `         | The Phred quality score encoding. [Default: 33]              |
+  | `--qual_cutoff `   | The quality cutoff for base calling. [Default: 20]           |
   
   **Output**  
   
@@ -119,10 +119,10 @@ The detection of RNA editing events in Stereo-seq data involves three main steps
   
   | Argument        | Description                                                  |
   | :-------------- | :------------------------------------------------------------ |
-  | `--annotation  `  | The annotation file of the Stereo-seq data, including spatial coordinates, cell-type annotations, etc. |
-  | `--input`       | The input file containing the detected RNA editing sites, generated from Step 2. |
-  | `--outdir`      | The path to the output directory for results.                |
-  | `--suffix`      | The suffix of the input file. [Default: REs.gz]              |
+  | `--annotation `  | The annotation file of the Stereo-seq data, including spatial coordinates, cell-type annotations, etc. |
+  | `--input `       | The input file containing the detected RNA editing sites, generated from Step 2. |
+  | `--outdir `      | The path to the output directory for results.                |
+  | `--suffix `      | The suffix of the input file. [Default: REs.gz]              |
   
   **Output**  
   
@@ -176,7 +176,7 @@ The detection of RNA editing events in Visium data follows a process similar to 
   | :------------- | :------------------------------------------------------------ |
   | `--inBam `    | The input BAM file. A sorted BAM file with alignments ordered by leftmost coordinates is required as input. |
   | `--outBam `   | The output BAM file after removing duplicates and multi-mapped reads. |
-  | `--samtools` | The path to the `samtools` executable.                       |
+  | `--samtools ` | The path to the `samtools` executable.                       |
   
   **Output**  
 
@@ -200,16 +200,16 @@ The detection of RNA editing events in Visium data follows a process similar to 
   perl Visium/REcallingStVisiumIllumina.pl --barcode2slide <barcodes.tsv> --dataset <knownSite> --bam <sample.bam> --outdir <results> --samtools <samtools> --suffix bam --phred 33 --qual_cutoff 20
   ```
   
-  | Argument          | Description                                                  |
-  | ----------------- | ------------------------------------------------------------ |
-  | `--barcode2slide` | The file records the correspondence between barcodes and spatial coordinates. |
-  | `--dataset`       | The path to the known A-to-I RNA editing dataset (e.g. Dataset/REDIportalV2.0_Mouse_mm10.txt.gz) |
-  | `--bam`           | The input BAM file, generated from Step 1.                   |
-  | `--outdir`        | The path to the output directory for results.                |
-  | `--samtools`      | The path to the `samtools` executable.                       |
-  | `--suffix`        | The suffix of the input file. [Default: bam]                 |
-  | `--phred`         | The Phred quality score encoding. [Default: 33]              |
-  | `--qual_cutoff`   | The quality cutoff for base calling. [Default: 20]           |
+  | Argument           | Description                                                  |
+  | :----------------- | :------------------------------------------------------------ |
+  | `--barcode2slide ` | The file records the correspondence between barcodes and spatial coordinates. |
+  | `--dataset `       | The path to the known A-to-I RNA editing dataset (e.g. Dataset/REDIportalV2.0_Mouse_mm10.txt.gz) |
+  | `--bam `           | The input BAM file, generated from Step 1.                   |
+  | `--outdir `        | The path to the output directory for results.                |
+  | `--samtools `      | The path to the `samtools` executable.                       |
+  | `--suffix `        | The suffix of the input file. [Default: bam]                 |
+  | `--phred `         | The Phred quality score encoding. [Default: 33]              |
+  | `--qual_cutoff `   | The quality cutoff for base calling. [Default: 20]           |
   
   **Output**  
   
@@ -248,10 +248,10 @@ The detection of RNA editing events in Visium data follows a process similar to 
   ```
   | Argument        | Description                                                  |
   | :-------------- | :------------------------------------------------------------ |
-  | `--annotation`  | The annotation file of the Stereo-seq data, including spatial coordinates, cell-type annotations, etc. |
-  | `--input`       | The input file containing the detected RNA editing sites, generated from Step 2. |
-  | `--outdir`      | The path to the output directory for results.                |
-  | `--suffix`      | The suffix of the input file. [Default: REs.gz]              |
+  | `--annotation `  | The annotation file of the Stereo-seq data, including spatial coordinates, cell-type annotations, etc. |
+  | `--input `       | The input file containing the detected RNA editing sites, generated from Step 2. |
+  | `--outdir `      | The path to the output directory for results.                |
+  | `--suffix `      | The suffix of the input file. [Default: REs.gz]              |
   
   **Output** 
   
