@@ -9,12 +9,8 @@ The framework SRDRE (Spatially Resolved Detection of RNA Editing) was developed 
 - [Stereo-seq](#stereo-seq-data)
 - [Visium](#visium-data)
 
-The applicability of our tool has been proven on two widely used spatial transcriptomics platforms, **Stereo-seq** and **Visium.** We uploaded the test data in the [Demo](https://github.com/JinRcn/SRDRE/tree/main/Demo) directory, and users can directly repeat the analysis by following our step-by-step workflow.<br>
-**Note**: The BAM files are managed by Git LFS, so please download them directly via link : 
-          [StereoMacaque](https://github.com/JinRcn/SRDRE/raw/refs/heads/main/Demo/StereoSeq/Data/macaque_cortex_14r.bam?download=) and 
-          [VisiumMouse](https://github.com/JinRcn/SRDRE/raw/refs/heads/main/Demo/Visium/Data/mouse_brain.bam?download=).
 
-<br>
+## Usage
 Use the tool instantly — no installation required.
 <br>
 
@@ -24,6 +20,9 @@ Use the tool instantly — no installation required.
 
 - [Perl](https://www.perl.org)
 <br>
+
+## Demo case
+The applicability of our tool has been proven on two widely used spatial transcriptomics platforms, **Stereo-seq** and **Visium.** We uploaded the test data in the [Demo](https://github.com/JinRcn/SRDRE/tree/main/Demo) directory, and users can directly repeat the analysis by following our step-by-step workflow. More details can be found in xxx.
 
 ### Data Preparation
 
