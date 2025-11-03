@@ -14,7 +14,7 @@ The framework SRDRE (Spatially Resolved Detection of RNA Editing) was developed 
 - Samtools
 
 - Perl
-
+<br>
 
 ### Data Preparation
 
@@ -29,7 +29,7 @@ SRDRE requires the following input data types:
   | chr1       | 1234567    | A              |
   | chr2       | 7654321    | C              |
   | chrX       | 2345678    | G              |
-
+<br>
 
 ### Stereo-seq data
 
@@ -141,7 +141,7 @@ The detection of RNA editing events in Stereo-seq data involves three main steps
     | 14r-l2 | Inhibitory neurons | 63694    | 6402   | 0.10051 |
     | 14r-l3 | Excitatory neurons | 754936   | 75086  | 0.09502 |
 
-
+<br>
 
 ### Visium data
 
@@ -154,8 +154,7 @@ The only difference to note in Visium is that a **coordinate file** in tab-delim
 | AAACAATCTACTAGCA | 44   | 4    |
 | AAACACCAATAACTGC | 20   | 60   |
 
-
-
+<br>
 The detection of RNA editing events in Visium data follows a process similar to that for Stereo-seq.
 
 - **Step 1**: Remove PCR duplicate reads and reads aligned to multiple loci.
@@ -268,7 +267,7 @@ The detection of RNA editing events in Visium data follows a process similar to 
     | CA3          | 14817    | 914    | 0.06169 |
     | Hypothalamus | 60348    | 3734   | 0.06187 |
 
-
+<br>
 
 ### **[NOTES]**
 
@@ -276,14 +275,15 @@ Ensure that the paths to the Perl scripts and the `samtools` executable are corr
 
 The `-phred 33` option assumes that the quality scores are encoded using the Illumina 1.8+ format. If your data uses a different encoding, adjust this parameter accordingly. The `-qual_cutoff 20` option sets a quality threshold for base calling, which can be adjusted based on the quality of your sequencing data.
 
-
+<br>
 
 ## Citation
 
-
+<br>
 
 ## Tools comparison
 [Compare analysis](https://github.com/JinRcn/SRDRE/blob/main/Other/comparison.md)
+<br>
 
 ## Contact
 
