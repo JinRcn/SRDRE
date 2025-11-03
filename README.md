@@ -22,7 +22,7 @@ SRDRE requires the following input data types:
 - **Known RNA editing sites** in tab-delimited format , including at least three columns: *Chromosome*, *Coordinate*, *Reference Base* (`knownSite`).
 
   | Chromosome | Coordinate | Reference Base |
-  | ---------- | ---------- | -------------- |
+  | :---------- | :---------- | :-------------- |
   | chr1       | 1234567    | A              |
   | chr2       | 7654321    | C              |
   | chrX       | 2345678    | G              |
@@ -45,7 +45,7 @@ The detection of RNA editing events in Stereo-seq data involves three main steps
   ```
   
   | Argument      | Description                                                  |
-  | ------------- | ------------------------------------------------------------ |
+  | :------------- | :------------------------------------------------------------ |
   | `--inBam `    | The input BAM file. A sorted BAM file with alignments ordered by leftmost coordinates is required as input. |
   | `--outBam `   | The output BAM file after removing duplicates and multi-mapped reads. |
   | `--samtools ` | The path to the `samtools` executable.                       |
@@ -73,14 +73,14 @@ The detection of RNA editing events in Stereo-seq data involves three main steps
   ```
   
   | Argument        | Description                                                  |
-  | --------------- | ------------------------------------------------------------ |
-  | `--dataset`     | The path to the known A-to-I RNA editing dataset (e.g. Dataset/REDIportalV2.0_Mouse_mm10.txt.gz) |
-  | `--bam`         | The input BAM file, generated from Step 1.                   |
-  | `--outdir`      | The path to the output directory for results.                |
-  | `--samtools`    | The path to the `samtools` executable.                       |
-  | `--suffix`      | The suffix of the input file. [Default: bam]                 |
-  | `--phred`       | The Phred quality score encoding. [Default: 33]              |
-  | `--qual_cutoff` | The quality cutoff for base calling. [Default: 20]           |
+  | :--------------- | :------------------------------------------------------------ |
+  | `--dataset`      | The path to the known A-to-I RNA editing dataset (e.g. Dataset/REDIportalV2.0_Mouse_mm10.txt.gz) |
+  | `--bam`          | The input BAM file, generated from Step 1.                   |
+  | `--outdir`       | The path to the output directory for results.                |
+  | `--samtools`     | The path to the `samtools` executable.                       |
+  | `--suffix`       | The suffix of the input file. [Default: bam]                 |
+  | `--phred`        | The Phred quality score encoding. [Default: 33]              |
+  | `--qual_cutoff`  | The quality cutoff for base calling. [Default: 20]           |
   
   **Output**  
   
@@ -88,7 +88,7 @@ The detection of RNA editing events in Stereo-seq data involves three main steps
     Each entry contains the X and Y spatial coordinates (**Cod**), where **Coverage** indicates the total number of reads covering the locus, while **Edited** represents the number of edited reads at that site. **Chr**, **Pos**, and **RefBase** denote the chromosome identifier, exact genomic position, and reference base of the known A-to-I editing site, respectively.
   
     | Cod         | Chr   | Pos       | RefBase | Coverage | Edited |
-    | ----------- | ----- | --------- | ------- | -------- | ------ |
+    | :----------- | :----- | :--------- | :------- | :-------- | :------ |
     | 20002,77405 | chr8  | 131520619 | T       | 1        | 0      |
     | 20003,77362 | chr19 | 55074976  | A       | 1        | 0      |
     | 20003,77370 | chr20 | 7610364   | A       | 2        | 0      |
@@ -96,7 +96,7 @@ The detection of RNA editing events in Stereo-seq data involves three main steps
   - A matrix recording the detected base and its Phred quality score for editing site within the given coordinates (`.sam2base.gz`). **CoverBase** records the base detected at the editing site, and **Phred** represents the Phred quality score used for quality control.
   
     | Cod         | Chr   | Pos       | RefBase | CoverBase | Phred |
-    | ----------- | ----- | --------- | ------- | --------- | ----- |
+    | :----------- | :----- | :--------- | :------- | :--------- | :----- |
     | 20002,77405 | chr8  | 131520619 | T       | T         | G     |
     | 20003,77362 | chr19 | 55074976  | A       | A         | G     |
     | 20003,77370 | chr20 | 7610364   | A       | AA        | D?    |
@@ -117,19 +117,19 @@ The detection of RNA editing events in Stereo-seq data involves three main steps
   perl StereoSeq/spatialAssign.pl --annotation <annotations.tsv> --input <site.REs.gz> --outdir <results> --suffix REs.gz
   ```
   
-  | Argument       | Description                                                  |
-  | -------------- | ------------------------------------------------------------ |
-  | `--annotation` | The annotation file of the Stereo-seq data, including spatial coordinates, cell-type annotations, etc. |
-  | `--input`      | The input file containing the detected RNA editing sites, generated from Step 2. |
-  | `--outdir`     | The path to the output directory for results.                |
-  | `--suffix`     | The suffix of the input file. [Default: REs.gz]              |
+  | Argument        | Description                                                  |
+  | :-------------- | :------------------------------------------------------------ |
+  | `--annotation`  | The annotation file of the Stereo-seq data, including spatial coordinates, cell-type annotations, etc. |
+  | `--input`       | The input file containing the detected RNA editing sites, generated from Step 2. |
+  | `--outdir`      | The path to the output directory for results.                |
+  | `--suffix`      | The suffix of the input file. [Default: REs.gz]              |
   
   **Output**  
   
   - A matrix contains assigned spatial annotations (`.REs.gz`)
   
     | Cod         | Chr   | Pos       | RefBase | Coverage | Edited | Area   | Celltype           |
-    | ----------- | ----- | --------- | ------- | -------- | ------ | ------ | ------------------ |
+    | :----------- | :----- | :--------- | :------- | :-------- | :------ | :------ | :------------------ |
     | 20002,77405 | chr8  | 131520619 | T       | 1        | 0      | 14r-l1 | Excitatory neurons |
     | 20003,77362 | chr19 | 55074976  | A       | 1        | 0      | 14r-l1 | Excitatory neurons |
     | 20003,77370 | chr20 | 7610364   | A       | 2        | 0      | 14r-l1 | Excitatory neurons |
@@ -137,7 +137,7 @@ The detection of RNA editing events in Stereo-seq data involves three main steps
   - A summary table presenting the RNA editing index for each brain area and cell type (`.REI.tsv`).
   
     | Region | Celltype           | Coverage | Edited | REI     |
-    | ------ | ------------------ | -------- | ------ | ------- |
+    | :------ | :------------------ | :-------- | :------ | :------- |
     | 14r-l2 | Excitatory neurons | 285147   | 27096  | 0.09502 |
     | 14r-l2 | Inhibitory neurons | 63694    | 6402   | 0.10051 |
     | 14r-l3 | Excitatory neurons | 754936   | 75086  | 0.09502 |
@@ -149,7 +149,7 @@ The detection of RNA editing events in Stereo-seq data involves three main steps
 The only difference to note in Visium is that a **coordinate file** in tab-delimited format is **required** to map barcodes to their corresponding slide coordinates (`barcodes.tsv`).
 
 | barcode          | x    | y    |
-| ---------------- | ---- | ---- |
+| :---------------- | :---- | :---- |
 | AAACAACGAATAGTTC | 17   | 1    |
 | AAACAAGTATCTCCCA | 103  | 51   |
 | AAACAATCTACTAGCA | 44   | 4    |
@@ -159,7 +159,7 @@ The only difference to note in Visium is that a **coordinate file** in tab-delim
 
 
 
-The detection of RNA editing events in Visium data follows a process similar to that for Stereo-seq, and identical arguments and similar output will not be explained again.
+The detection of RNA editing events in Visium data follows a process similar to that for Stereo-seq.
 
 - **Step 1**: Remove PCR duplicate reads and reads aligned to multiple loci.
 
@@ -172,7 +172,12 @@ The detection of RNA editing events in Visium data follows a process similar to 
   ```perl
   perl Visium/rmDupStVisiumIllumina.pl --inBam <input.bam> --outBam <output.bam> --samtools <samtools>
   ```
-
+  | Argument      | Description                                                  |
+  | :------------- | :------------------------------------------------------------ |
+  | `--inBam `    | The input BAM file. A sorted BAM file with alignments ordered by leftmost coordinates is required as input. |
+  | `--outBam `   | The output BAM file after removing duplicates and multi-mapped reads. |
+  | `--samtools ` | The path to the `samtools` executable.                       |
+  
   **Output**  
 
   - A BAM file after removing PCR duplicates and multi-mapped reads (`sample.bam`).
@@ -198,13 +203,20 @@ The detection of RNA editing events in Visium data follows a process similar to 
   | Argument          | Description                                                  |
   | ----------------- | ------------------------------------------------------------ |
   | `--barcode2slide` | The file records the correspondence between barcodes and spatial coordinates. |
+  | `--dataset`       | The path to the known A-to-I RNA editing dataset (e.g. Dataset/REDIportalV2.0_Mouse_mm10.txt.gz) |
+  | `--bam`           | The input BAM file, generated from Step 1.                   |
+  | `--outdir`        | The path to the output directory for results.                |
+  | `--samtools`      | The path to the `samtools` executable.                       |
+  | `--suffix`        | The suffix of the input file. [Default: bam]                 |
+  | `--phred`         | The Phred quality score encoding. [Default: 33]              |
+  | `--qual_cutoff`   | The quality cutoff for base calling. [Default: 20]           |
   
   **Output**  
   
   - `mouse_brain.REs.gz`
   
     | Cod    | Chr   | Pos       | RefBase | Coverage | Edited |
-    | ------ | ----- | --------- | ------- | -------- | ------ |
+    | :------ | :----- | :--------- | :------- | :-------- | :------ |
     | 100,20 | chr1  | 143749562 | A       | 1        | 0      |
     | 100,20 | chr11 | 72209575  | T       | 1        | 0      |
     | 100,20 | chr12 | 100207186 | A       | 5        | 0      |
@@ -212,7 +224,7 @@ The detection of RNA editing events in Visium data follows a process similar to 
   - `mouse_brain.sam2base.gz`
   
     | Cod    | Chr   | Pos       | RefBase | CoverBase | Phred |
-    | ------ | ----- | --------- | ------- | --------- | ----- |
+    | :------ | :----- | :--------- | :------- | :--------- | :----- |
     | 100,20 | chr1  | 143749562 | A       | A         | F     |
     | 100,20 | chr11 | 72209575  | T       | T         | F     |
     | 100,20 | chr12 | 100207186 | A       | AAAAA     | FF:FF |
@@ -240,7 +252,7 @@ The detection of RNA editing events in Visium data follows a process similar to 
   - `mouse_brain.REs.gz`
   
     | Cod    | Chr   | Pos       | RefBase | Coverage | Edited | Area        |
-    | ------ | ----- | --------- | ------- | -------- | ------ | ----------- |
+    | :------ | :----- | :--------- | :------- | :-------- | :------ | :----------- |
     | 100,20 | chr1  | 143749562 | A       | 1        | 0      | Isocortex_1 |
     | 100,20 | chr11 | 72209575  | T       | 1        | 0      | Isocortex_1 |
     | 100,20 | chr12 | 100207186 | A       | 5        | 0      | Isocortex_1 |
@@ -248,7 +260,7 @@ The detection of RNA editing events in Visium data follows a process similar to 
   - `mouse_brain.REI.tsv`
   
     | Region       | Coverage | Edited | REI     |
-    | ------------ | -------- | ------ | ------- |
+    | :------------ | :-------- | :------ | :------- |
     | CA1_CA2      | 16120    | 771    | 0.04783 |
     | CA3          | 14817    | 914    | 0.06169 |
     | Hypothalamus | 60348    | 3734   | 0.06187 |
@@ -266,6 +278,8 @@ The `-phred 33` option assumes that the quality scores are encoded using the Ill
 ## Citation
 
 
+## Tools comparison
+[Compare analysis](https://github.com/JinRcn/SRDRE/blob/main/Other/comparison.md)
 
 ## Contact
 
