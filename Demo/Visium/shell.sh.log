@@ -1,0 +1,9 @@
+rmDup	Start: 14:52:18 on 23 Oct 2025
+[samopen] SAM header is present: 22 sequences.
+Processing completed successfully.
+rmDup	End: 14:52:52 on 23 Oct 2025
+REcalling	Start: 14:52:52 on 23 Oct 2025
+REcalling	End: 14:54:33 on 23 Oct 2025
+spatialAssign	Start: 14:54:33 on 23 Oct 2025
+spatialAssign completed successfully.
+spatialAssign	End: 14:54:33 on 23 Oct 2025

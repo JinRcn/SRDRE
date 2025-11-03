@@ -1,0 +1,3 @@
+1b00bf5cdcdb1efea4f7041517ece089  macaque_cortex_14r.annotation.tsv.gz
+dba21abb5d09a74728ea193154fcfeeb  macaque_cortex_14r.bam
+0656ae8aee7ed9d3c0cc9b3614f90868  Sites_Macaque_macFas5.gz
