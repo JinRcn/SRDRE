@@ -5,6 +5,8 @@ The framework SRDRE (Spatially Resolved Detection of RNA Editing) was developed 
 
 ![image](https://github.com/user-attachments/assets/336e7f97-03c7-4623-9b4b-b156d92b2650)
 
+[Stereo-seq](### Stereo-seq data)
+[Visium](### Visium data)
 
 ## Requirements
 
@@ -85,9 +87,9 @@ The detection of RNA editing events in Stereo-seq data involves three main steps
   **Output**  
   
   - A count matrix of all detected RNA editing events in the spatial data (`.REs.gz`).
-    Each entry contains the X and Y spatial coordinates (**Cod**), where **Coverage** indicates the total number of reads covering the locus, while **Edited** represents the number of edited reads at that site. **Chr**, **Pos**, and **RefBase** denote the chromosome identifier, exact genomic position, and reference base of the known A-to-I editing site, respectively.
+    Each entry contains the X and Y spatial coordinates (**Coordinate**), where **Coverage** indicates the total number of reads covering the locus, while **Edited** represents the number of edited reads at that site. **Chr**, **Pos**, and **RefBase** denote the chromosome identifier, exact genomic position, and reference base of the known A-to-I editing site, respectively.
   
-    | Cod         | Chr   | Pos       | RefBase | Coverage | Edited |
+    | Coordinate   | Chr   | Pos       | RefBase | Coverage | Edited |
     | :----------- | :----- | :--------- | :------- | :-------- | :------ |
     | 20002,77405 | chr8  | 131520619 | T       | 1        | 0      |
     | 20003,77362 | chr19 | 55074976  | A       | 1        | 0      |
@@ -95,7 +97,7 @@ The detection of RNA editing events in Stereo-seq data involves three main steps
   
   - A matrix recording the detected base and its Phred quality score for editing site within the given coordinates (`.sam2base.gz`). **CoverBase** records the base detected at the editing site, and **Phred** represents the Phred quality score used for quality control.
   
-    | Cod         | Chr   | Pos       | RefBase | CoverBase | Phred |
+    | Coordinate    | Chr   | Pos       | RefBase | CoverBase | Phred |
     | :----------- | :----- | :--------- | :------- | :--------- | :----- |
     | 20002,77405 | chr8  | 131520619 | T       | T         | G     |
     | 20003,77362 | chr19 | 55074976  | A       | A         | G     |
@@ -128,7 +130,7 @@ The detection of RNA editing events in Stereo-seq data involves three main steps
   
   - A matrix contains assigned spatial annotations (`.REs.gz`)
   
-    | Cod         | Chr   | Pos       | RefBase | Coverage | Edited | Area   | Celltype           |
+    | Coordinate    | Chr   | Pos       | RefBase | Coverage | Edited | Area   | Celltype           |
     | :----------- | :----- | :--------- | :------- | :-------- | :------ | :------ | :------------------ |
     | 20002,77405 | chr8  | 131520619 | T       | 1        | 0      | 14r-l1 | Excitatory neurons |
     | 20003,77362 | chr19 | 55074976  | A       | 1        | 0      | 14r-l1 | Excitatory neurons |
@@ -213,17 +215,19 @@ The detection of RNA editing events in Visium data follows a process similar to 
   
   **Output**  
   
-  - `mouse_brain.REs.gz`
-  
-    | Cod    | Chr   | Pos       | RefBase | Coverage | Edited |
+  - A count matrix of all detected RNA editing events in the spatial data (`mouse_brain.REs.gz`).
+    Each entry contains the X and Y spatial coordinates (**Coordinate**), where **Coverage** indicates the total number of reads covering the locus, while **Edited** represents the number of edited reads at that site. **Chr**, **Pos**, and **RefBase** denote the chromosome identifier, exact genomic position, and reference base of the known A-to-I editing site, respectively.
+
+    | Coordinate    | Chr   | Pos       | RefBase | Coverage | Edited |
     | :------ | :----- | :--------- | :------- | :-------- | :------ |
     | 100,20 | chr1  | 143749562 | A       | 1        | 0      |
     | 100,20 | chr11 | 72209575  | T       | 1        | 0      |
     | 100,20 | chr12 | 100207186 | A       | 5        | 0      |
   
-  - `mouse_brain.sam2base.gz`
-  
-    | Cod    | Chr   | Pos       | RefBase | CoverBase | Phred |
+  - A matrix recording the detected base and its Phred quality score for editing site within the given coordinates (`mouse_brain.sam2base.gz`).
+    **CoverBase** records the base detected at the editing site, and **Phred** represents the Phred quality score used for quality control.  
+
+    | Coordinate    | Chr   | Pos       | RefBase | CoverBase | Phred |
     | :------ | :----- | :--------- | :------- | :--------- | :----- |
     | 100,20 | chr1  | 143749562 | A       | A         | F     |
     | 100,20 | chr11 | 72209575  | T       | T         | F     |
@@ -255,15 +259,15 @@ The detection of RNA editing events in Visium data follows a process similar to 
   
   **Output** 
   
-  - `mouse_brain.REs.gz`
+  - A matrix contains assigned spatial annotations (`mouse_brain.REs.gz`).
   
-    | Cod    | Chr   | Pos       | RefBase | Coverage | Edited | Area        |
+    | Coordinate  | Chr   | Pos       | RefBase | Coverage | Edited | Area        |
     | :------ | :----- | :--------- | :------- | :-------- | :------ | :----------- |
     | 100,20 | chr1  | 143749562 | A       | 1        | 0      | Isocortex_1 |
     | 100,20 | chr11 | 72209575  | T       | 1        | 0      | Isocortex_1 |
     | 100,20 | chr12 | 100207186 | A       | 5        | 0      | Isocortex_1 |
   
-  - `mouse_brain.REI.tsv`
+  - A summary table presenting the RNA editing index for each brain area and cell type (`mouse_brain.REI.tsv`).
   
     | Region       | Coverage | Edited | REI     |
     | :------------ | :-------- | :------ | :------- |
@@ -282,6 +286,7 @@ The `-phred 33` option assumes that the quality scores are encoded using the Ill
 
 
 ## Citation
+
 
 
 ## Tools comparison
