@@ -14,12 +14,12 @@ We present a comparative analysis between SRD-RE and the widely used REDItools. 
 
 - **f) Runtime Performance**: The runtime results, now documented in the repository, highlight a significant advantage of our tool:
 Our Tool: ~7 hours
-
 REDItools (REDItoolDenovo.py mode): ~30 hours
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/ba3b25bb-bca6-4be1-a8a1-38b326748cef" width="400" height="600">
 </p>
+
 
 
 
