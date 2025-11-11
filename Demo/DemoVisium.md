@@ -1,8 +1,8 @@
 ## Demo Visium
 
-Users can directly repeat all the analysis by following our step-by-step workflow in this file.
+Users can directly repeat all the analysis by following our step-by-step workflow in this file.<br>
 
-We reran this workflow, which took approximately 104 seconds using 1 CPU and 2 GB of memory.
+We reran this workflow, which took approximately 160 seconds using 1 CPU and 2 GB of memory.
 
 
 
@@ -91,4 +91,5 @@ All output files can be found in the `Output` directory. The final processed res
   | :----------- | :------- | :----- | :------ |
   | CA1_CA2      | 16120    | 771    | 0.04783 |
   | CA3          | 14817    | 914    | 0.06169 |
+
   | Hypothalamus | 60348    | 3734   | 0.06187 |
