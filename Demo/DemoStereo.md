@@ -50,7 +50,7 @@ Below we provide a step-by-step explanation of what the script does:
   echo -e "rmDup\tEnd: $(date +"%H:%M:%S on %d %b %Y")"
   ```
 
-- **Step 2**: Supervised detection of RNA editing (time-consuming).
+- **Step 2**: Detection of RNA editing (time-consuming).
 
   ```shell
   echo -e "REcalling\tStart: $(date +"%H:%M:%S on %d %b %Y")" && \
@@ -87,6 +87,7 @@ All output files can be found in the `Output` directory. The final processed res
   | 14r-l2 | Excitatory neurons | 285147   | 27096  | 0.09502 |
   | 14r-l2 | Inhibitory neurons | 63694    | 6402   | 0.10051 |
   | 14r-l3 | Excitatory neurons | 754936   | 75086  | 0.09502 |
+
 
 
 
