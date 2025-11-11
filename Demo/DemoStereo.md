@@ -4,10 +4,6 @@ Users can directly repeat all the analysis by following our step-by-step workflo
 
 
 
-The BAM files are managed by Git LFS, so please download them directly via link [StereoMacaque](https://github.com/JinRcn/SRDRE/raw/refs/heads/main/Demo/StereoSeq/Data/macaque_cortex_14r.bam?download=)
-
-[VisiumMouse](https://github.com/JinRcn/SRDRE/raw/refs/heads/main/Demo/Visium/Data/mouse_brain.bam?download=)
-
 ## Data preparation
 
 All files required for detecting RNA A-to-I editing events in Stereo-seq data are provided in the `Demo/StereoSeq` directory. Users only need to copy this directory as a whole.
@@ -86,4 +82,5 @@ Below we provide a step-by-step explanation of what the script does:
   | 14r-l2 | Excitatory neurons | 285147   | 27096  | 0.09502 |
   | 14r-l2 | Inhibitory neurons | 63694    | 6402   | 0.10051 |
   | 14r-l3 | Excitatory neurons | 754936   | 75086  | 0.09502 |
+
 
