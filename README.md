@@ -23,7 +23,8 @@ Use the tool instantly — no installation required.
 <br>
 
 ## Demo case
-The applicability of our tool has been proven on two widely used spatial transcriptomics platforms, **Stereo-seq** and **Visium.** We uploaded the test data in the [Demo](https://github.com/JinRcn/SRDRE/tree/main/Demo) directory, and users can directly repeat the analysis by following our step-by-step workflow. More details can be found in [DemoStereo](https://github.com/JinRcn/SRDRE/blob/main/Demo/DemoStereo.md) and [DemoVisium](https://github.com/JinRcn/SRDRE/blob/main/Demo/DemoVisium.md).
+The applicability of our tool has been proven on two widely used spatial transcriptomics platforms, **Stereo-seq** and **Visium.** We uploaded the test data in the [Demo](https://github.com/JinRcn/SRDRE/tree/main/Demo) directory, and users can directly repeat the analysis by following our step-by-step workflow. <br>
+More details can be found in [DemoStereo](https://github.com/JinRcn/SRDRE/blob/main/Demo/DemoStereo.md) and [DemoVisium](https://github.com/JinRcn/SRDRE/blob/main/Demo/DemoVisium.md).
 
 <br>
 
