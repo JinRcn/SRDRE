@@ -51,7 +51,7 @@ Below we provide a step-by-step explanation of what the script does:
   echo -e "rmDup\tEnd: $(date +"%H:%M:%S on %d %b %Y")"
   ```
 
-- **Step 2**: Supervised detection of RNA editing (time-consuming).
+- **Step 2**: Detection of RNA editing (time-consuming).
 
   ```shell
   echo -e "REcalling\tStart: $(date +"%H:%M:%S on %d %b %Y")" && \
@@ -92,4 +92,5 @@ All output files can be found in the `Output` directory. The final processed res
   | CA1_CA2      | 16120    | 771    | 0.04783 |
   | CA3          | 14817    | 914    | 0.06169 |
   | Hypothalamus | 60348    | 3734   | 0.06187 |
+
 
