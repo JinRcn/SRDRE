@@ -25,14 +25,13 @@ You can clone the SRDRE with git.
 - [Perl](https://www.perl.org)
 <br>
 
-## Usage
-
 ## Demo case
 The applicability of our tool has been proven on two widely used spatial transcriptomics platforms, **Stereo-seq** and **Visium.** We uploaded the test data in the [Demo](https://github.com/JinRcn/SRDRE/tree/main/Demo) directory, and users can directly repeat the analysis by following our step-by-step workflow. <br>
 More details and <mark>notes</mark> are available in [DemoStereo](https://github.com/JinRcn/SRDRE/blob/main/Demo/DemoStereo.md) and [DemoVisium](https://github.com/JinRcn/SRDRE/blob/main/Demo/DemoVisium.md).
 
 <br>
 
+## Usage
 
 ### Data Preparation
 
