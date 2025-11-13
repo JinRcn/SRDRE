@@ -76,7 +76,6 @@ The detection of RNA editing events in Stereo-seq data involves three main steps
   
   - A BAM file after removing PCR duplicates and multi-mapped reads (`sample.bam`).
 
-
 - **Step 2**: Detection of RNA editing.
 
   **Input** 
