@@ -306,7 +306,7 @@ The `--phred 33` option assumes that the quality scores are encoded using the Il
 
 If you have any comments or suggestions, please contact Dr Huang (huangjinrong@genomics.cn).
 
-
+<br>
 
 ## License
 
