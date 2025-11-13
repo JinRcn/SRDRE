@@ -141,7 +141,7 @@ The detection of RNA editing events in Stereo-seq data involves three main steps
   perl StereoSeq/spatialAssign.pl --annotation <annotations.tsv> --input <site.REs.gz> --outdir <results> --suffix REs.gz
   ```
   
-  | Argument        | Description                                                  |
+  | Option        | Description                                                  |
   | :-------------- | :------------------------------------------------------------ |
   | `--annotation `  | The annotation file of the Stereo-seq data, including spatial coordinates, cell-type annotations, etc. |
   | `--input `       | The input file containing the detected RNA editing sites, generated from Step 2. |
@@ -194,7 +194,7 @@ The detection of RNA editing events in Visium data follows a process similar to 
   ```perl
   perl Visium/rmDupStVisiumIllumina.pl --inBam <input.bam> --outBam <output.bam> --samtools <samtools>
   ```
-  | Argument      | Description                                                  |
+  | Option      | Description                                                  |
   | :------------- | :------------------------------------------------------------ |
   | `--inBam `    | The input BAM file. A sorted BAM file with alignments ordered by leftmost coordinates is required as input. |
   | `--outBam `   | The output BAM file after removing duplicates and multi-mapped reads. |
@@ -221,7 +221,7 @@ The detection of RNA editing events in Visium data follows a process similar to 
   perl Visium/REcallingStVisiumIllumina.pl --barcode2slide <barcodes.tsv> --dataset <knownSite> --bam <sample.bam> --outdir <results> --samtools <samtools> --suffix bam --phred 33 --qual_cutoff 20
   ```
   
-  | Argument           | Description                                                  |
+  | Option           | Description                                                  |
   | :----------------- | :------------------------------------------------------------ |
   | `--barcode2slide ` | The file records the correspondence between barcodes and spatial coordinates. |
   | `--dataset `       | The path to the known A-to-I RNA editing dataset (e.g. Dataset/REDIportalV2.0_Mouse_mm10.txt.gz) |
@@ -269,7 +269,7 @@ The detection of RNA editing events in Visium data follows a process similar to 
   ```perl
   perl Visium/spatialAssign.pl --barcode2slide <barcodes.tsv> --annotation <annotations.tsv> --input <site.REs.gz> --outdir <results> --suffix REs.gz
   ```
-  | Argument        | Description                                                  |
+  | Option        | Description                                                  |
   | :-------------- | :------------------------------------------------------------ |
   | `--annotation `  | The annotation file of the Stereo-seq data, including spatial coordinates, cell-type annotations, etc. |
   | `--input `       | The input file containing the detected RNA editing sites, generated from Step 2. |
