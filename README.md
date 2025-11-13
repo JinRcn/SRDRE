@@ -9,9 +9,8 @@ The framework SRDRE (Spatially Resolved Detection of RNA Editing) was developed 
 - [Stereo-seq](#stereo-seq-data)
 - [Visium](#visium-data)
 
-
-## Usage
-Use the tool instantly — no installation required.
+## Installation
+You can clone the SRDRE with git.
 
 <br>
 
@@ -21,6 +20,8 @@ Use the tool instantly — no installation required.
 
 - [Perl](https://www.perl.org)
 <br>
+
+## Usage
 
 ## Demo case
 The applicability of our tool has been proven on two widely used spatial transcriptomics platforms, **Stereo-seq** and **Visium.** We uploaded the test data in the [Demo](https://github.com/JinRcn/SRDRE/tree/main/Demo) directory, and users can directly repeat the analysis by following our step-by-step workflow. <br>
