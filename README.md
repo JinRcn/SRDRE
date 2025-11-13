@@ -21,7 +21,8 @@ The framework SRDRE (Spatially Resolved Detection of RNA Editing) was developed 
 <br>
 
 ## Installation
-You can clone the SRDRE with git.
+You can clone this repository using Git. Once cloned, SRDRE is ready to run with no additional installation steps.
+
   ```
   git clone https://github.com/JinRcn/SRDRE.git
   ```
