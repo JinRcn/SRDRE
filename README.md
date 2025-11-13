@@ -252,6 +252,7 @@ The detection of RNA editing events in Visium data follows a process similar to 
     | 100,20 | chr11 | 72209575  | T       | T         | F     |
     | 100,20 | chr12 | 100207186 | A       | AAAAA     | FF:FF |
 
+<br>
 
 - **Step 3**:  Assign spatial annotations to RNA editing sites and calculate RNA editing index
 
