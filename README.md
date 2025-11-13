@@ -7,6 +7,9 @@ The framework SRDRE (Spatially Resolved Detection of RNA Editing) was developed 
 
 <br>
 
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Demo case](#demo-case)
 - [Data Preparation](#data-preparation)
 - [Stereo-seq](#stereo-seq-data)
 - [Visium](#visium-data)
@@ -31,7 +34,8 @@ You can clone this repository using Git. Once cloned, SRDRE is ready to run with
 
 ## Demo case
 The applicability of our tool has been proven on two widely used spatial transcriptomics platforms, **Stereo-seq** and **Visium.** We uploaded the test data in the [Demo](https://github.com/JinRcn/SRDRE/tree/main/Demo) directory, and users can directly repeat the analysis by following our step-by-step workflow. <br>
-More details and <mark>notes</mark> are available in [DemoStereo](https://github.com/JinRcn/SRDRE/blob/main/Demo/DemoStereo.md) and [DemoVisium](https://github.com/JinRcn/SRDRE/blob/main/Demo/DemoVisium.md).
+<mark>The demo input BAM file are managed by Git LFS and must be downloaded separately, as it will not be downloaded when cloning the repository or downloading it as a ZIP.</mark>
+More details and notes are available in [DemoStereo](https://github.com/JinRcn/SRDRE/blob/main/Demo/DemoStereo.md) and [DemoVisium](https://github.com/JinRcn/SRDRE/blob/main/Demo/DemoVisium.md).
 
 <br>
 
