@@ -9,9 +9,7 @@ We reran this workflow, which took approximately 104 seconds using 1 CPU and 2 G
 
 All files required for detecting RNA A-to-I editing events in Stereo-seq data are provided in the `Demo/StereoSeq` directory. Users only need to copy this directory as a whole.
 
-<mark>The input BAM file are managed by Git LFS and must be downloaded separately, as it will not be downloaded when cloning the repository or downloading it as a ZIP.</mark>
-
-So **the only modification** to note is that the BAM file should be download directly via link [macaque_cortex_14r.bam](https://github.com/JinRcn/SRDRE/raw/refs/heads/main/Demo/StereoSeq/Data/macaque_cortex_14r.bam?download=) or by `git lfs pull` . 
+<mark>The only modification to note is that the BAM file should be download directly via link [macaque_cortex_14r.bam](https://github.com/JinRcn/SRDRE/raw/refs/heads/main/Demo/StereoSeq/Data/macaque_cortex_14r.bam?download=) or by `git lfs pull`.</mark>
 
 Afterward,  replace the LFS pointer file in `Demo/StereoSeq/Data` and verify the file integrity using `md5sum`.
 
@@ -87,6 +85,7 @@ All output files can be found in the `Output` directory. The final processed res
   | 14r-l2 | Excitatory neurons | 285147   | 27096  | 0.09502 |
   | 14r-l2 | Inhibitory neurons | 63694    | 6402   | 0.10051 |
   | 14r-l3 | Excitatory neurons | 754936   | 75086  | 0.09502 |
+
 
 
 
