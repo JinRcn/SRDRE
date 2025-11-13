@@ -126,7 +126,6 @@ The detection of RNA editing events in Stereo-seq data involves three main steps
     | 20002,77405 | chr8  | 131520619 | T       | T         | G     |
     | 20003,77362 | chr19 | 55074976  | A       | A         | G     |
     | 20003,77370 | chr20 | 7610364   | A       | AA        | D?    |
-
 ​	
 - **Step 3**:  Assign spatial annotations to RNA editing sites and calculate RNA editing index
 
@@ -181,8 +180,9 @@ The only difference to note in Visium is that a **coordinate file** in tab-delim
 | AAACACCAATAACTGC | 20   | 60   |
 
 <br>
-The detection of RNA editing events in Visium data follows a process similar to that for Stereo-seq.<br>
+The detection of RNA editing events in Visium data follows a process similar to that for Stereo-seq.
 <br>
+
 - **Step 1**: Remove PCR duplicate reads and reads aligned to multiple loci.
 
   **Input** 
