@@ -306,4 +306,4 @@ If you have any comments or suggestions, please contact Dr Huang (huangjinrong@g
 
 ## License
 
-**SRD-RE is free for academic use only.**
+**SRDRE is free for academic use only.**
