@@ -36,7 +36,7 @@ You can clone this repository using Git. Once cloned, SRDRE is ready to run with
 
 ## Demo case
 The applicability of our tool has been proven on two widely used spatial transcriptomics platforms, **Stereo-seq** and **Visium.** We uploaded the test data in the [Demo](https://github.com/JinRcn/SRDRE/tree/main/Demo) directory, and users can directly repeat the analysis by following our step-by-step workflow. <br>
-<mark>The demo input BAM file are managed by Git LFS and must be downloaded separately, as it will not be downloaded when cloning the repository or downloading it as a ZIP.</mark>
+<mark>The demo input BAM file are managed by Git LFS and must be downloaded separately, as it will not be downloaded when cloning the repository or downloading it as a ZIP.</mark> <br>
 More details and notes are available in [DemoStereo](https://github.com/JinRcn/SRDRE/blob/main/Demo/DemoStereo.md) and [DemoVisium](https://github.com/JinRcn/SRDRE/blob/main/Demo/DemoVisium.md).
 
 <br>
