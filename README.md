@@ -82,7 +82,7 @@ The detection of RNA editing events in Stereo-seq data involves three main steps
   **Output**  
   
   - A BAM file after removing PCR duplicates and multi-mapped reads (`sample.bam`).<br>
-  
+  <br>
 
 - **Step 2**: Detection of RNA editing.
 
@@ -182,7 +182,7 @@ The only difference to note in Visium is that a **coordinate file** in tab-delim
 
 <br>
 The detection of RNA editing events in Visium data follows a process similar to that for Stereo-seq.<br>
-
+<br>
 - **Step 1**: Remove PCR duplicate reads and reads aligned to multiple loci.
 
   **Input** 
@@ -204,6 +204,7 @@ The detection of RNA editing events in Visium data follows a process similar to 
 
   - A BAM file after removing PCR duplicates and multi-mapped reads (`sample.bam`).
 
+<br>
 - **Step 2**:  Detection of RNA editing 
 
   **Input** 
