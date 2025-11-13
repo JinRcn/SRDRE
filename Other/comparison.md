@@ -12,7 +12,6 @@ We present a comparative analysis between SRDRE and the widely used REDItools. S
 
 <img width="720" height="432" alt="F1-score" src="https://github.com/user-attachments/assets/da61f5cf-7fe9-48e8-a99a-b53e9e797bb1" />
 
-![F1-score](https://github.com/user-attachments/assets/c3a296a2-3286-4d60-b7f1-4b636ccbe6df)
 
 - **f) Runtime Performance**: The runtime results, now documented in the repository, highlight a significant advantage of our tool:
   
@@ -22,6 +21,7 @@ We present a comparative analysis between SRDRE and the widely used REDItools. S
 <p align="center">
   <img src="https://github.com/user-attachments/assets/ba3b25bb-bca6-4be1-a8a1-38b326748cef" width="400" height="600">
 </p>
+
 
 
 
