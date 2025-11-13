@@ -10,9 +10,7 @@ We reran this workflow, which took approximately 160 seconds using 1 CPU and 2 G
 
 All files required for detecting RNA A-to-I editing events in Visium data are provided in the `Demo/Visium` directory. Users only need to copy this directory as a whole.
 
-<mark>The input BAM file are managed by Git LFS and must be downloaded separately, as it will not be downloaded when cloning the repository or downloading it as a ZIP.</mark>
-
-So **the only modification** to note is that the BAM file should be download directly via link [mouse_brain.bam](https://github.com/JinRcn/SRDRE/raw/refs/heads/main/Demo/Visium/Data/mouse_brain.bam?download=) or by `git lfs pull` .
+<mark>The only modification to note is that the BAM file should be download directly via link [mouse_brain.bam](https://github.com/JinRcn/SRDRE/raw/refs/heads/main/Demo/Visium/Data/mouse_brain.bam?download=) or by `git lfs pull` .</mark>
 
 Afterward,  replace the LFS pointer file in `Demo/Visium/Data`  and verify the file integrity using `md5sum`.
 
@@ -92,5 +90,6 @@ All output files can be found in the `Output` directory. The final processed res
   | CA1_CA2      | 16120    | 771    | 0.04783 |
   | CA3          | 14817    | 914    | 0.06169 |
   | Hypothalamus | 60348    | 3734   | 0.06187 |
+
 
 
