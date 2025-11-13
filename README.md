@@ -300,6 +300,7 @@ The `--phred 33` option assumes that the quality scores are encoded using the Il
 
 ## Tools comparison
 [Comparative analysis](https://github.com/JinRcn/SRDRE/blob/main/Other/comparison.md)
+
 <br>
 
 ## Contact
