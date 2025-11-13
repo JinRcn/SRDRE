@@ -11,8 +11,9 @@ The framework SRDRE (Spatially Resolved Detection of RNA Editing) was developed 
 - [Installation](#installation)
 - [Demo case](#demo-case)
 - [Data Preparation](#data-preparation)
-- [Stereo-seq](#stereo-seq-data)
-- [Visium](#visium-data)
+- Running(#running)
+  - [Stereo-seq](#stereo-seq-data)
+  - [Visium](#visium-data)
 - [Tools comparison](#tools-comparison)
 
 <br>
@@ -40,9 +41,7 @@ More details and notes are available in [DemoStereo](https://github.com/JinRcn/S
 
 <br>
 
-## Usage
-
-### Data Preparation
+## Data Preparation
 
 SRDRE requires the following input data types:
 
@@ -57,6 +56,7 @@ SRDRE requires the following input data types:
   | chrX       | 2345678    | G              |
 <br>
 
+## Running
 ### Stereo-seq data
 
 The detection of RNA editing events in Stereo-seq data involves three main steps:
