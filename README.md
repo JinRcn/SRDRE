@@ -19,6 +19,8 @@ The framework SRDRE (Spatially Resolved Detection of RNA Editing) was developed 
 
 - [Perl](https://www.perl.org)
 
+<br>
+
 ## Installation
 You can clone this repository using Git. Once cloned, SRDRE is ready to run with no additional installation steps.
 
