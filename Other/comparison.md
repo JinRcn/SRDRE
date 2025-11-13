@@ -15,9 +15,10 @@ We present a comparative analysis between SRDRE and the widely used REDItools. S
 
 - **f) Runtime Performance**: The runtime results, now documented in the repository, highlight a significant advantage of our tool:
   
-  Our Tool: ~7 hours<br>
+  SRDRE: ~7 hours<br>
   REDItools (REDItoolDenovo.py mode): ~30 hours
 
 <img width="216" height="432" alt="time" src="https://github.com/user-attachments/assets/d5eed1cd-bf2f-44c8-85af-a22aaa4c11df" />
+
 
 
