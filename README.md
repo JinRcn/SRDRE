@@ -13,6 +13,7 @@ The framework SRDRE (Spatially Resolved Detection of RNA Editing) was developed 
 - [Data Preparation](#data-preparation)
 - [Stereo-seq](#stereo-seq-data)
 - [Visium](#visium-data)
+- [Tools comparison](#tools-comparison)
 
 <br>
 
