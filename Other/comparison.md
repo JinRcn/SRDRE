@@ -20,19 +20,3 @@ We present a comparative analysis between SRDRE and the widely used REDItools. S
 
 <img width="216" height="432" alt="time" src="https://github.com/user-attachments/assets/d5eed1cd-bf2f-44c8-85af-a22aaa4c11df" />
 
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/ba3b25bb-bca6-4be1-a8a1-38b326748cef" width="400" height="600">
-</p>
-
-
-
-
-
-
-
-
-
-
-
-
