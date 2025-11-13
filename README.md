@@ -18,7 +18,6 @@ The framework SRDRE (Spatially Resolved Detection of RNA Editing) was developed 
 - [Samtools](https://github.com/samtools/samtools)
 
 - [Perl](https://www.perl.org)
-<br>
 
 ## Installation
 You can clone this repository using Git. Once cloned, SRDRE is ready to run with no additional installation steps.
