@@ -1,6 +1,7 @@
 # Demo Stereo-seq
 
 Users can directly repeat all the analysis by following our step-by-step workflow in this file.<br>
+
 We reran this workflow, which took approximately 104 seconds using 1 CPU and 2 GB of memory.
 
 
@@ -85,6 +86,7 @@ All output files can be found in the `Output` directory. The final processed res
   | 14r-l2 | Excitatory neurons | 285147   | 27096  | 0.09502 |
   | 14r-l2 | Inhibitory neurons | 63694    | 6402   | 0.10051 |
   | 14r-l3 | Excitatory neurons | 754936   | 75086  | 0.09502 |
+
 
 
 
