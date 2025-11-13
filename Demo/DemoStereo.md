@@ -65,7 +65,7 @@ Below we provide a step-by-step explanation of what the script does:
 
   
 
-## Final result
+## Output
 ![OUTPUT](https://github.com/user-attachments/assets/604fadd5-82b4-4f08-9f7c-298f684284b7)
 
 All output files can be found in the `Output` directory. The final processed results are in `Output/3.REsInfo`.
@@ -84,6 +84,7 @@ All output files can be found in the `Output` directory. The final processed res
   | 14r-l2 | Excitatory neurons | 285147   | 27096  | 0.09502 |
   | 14r-l2 | Inhibitory neurons | 63694    | 6402   | 0.10051 |
   | 14r-l3 | Excitatory neurons | 754936   | 75086  | 0.09502 |
+
 
 
 
