@@ -203,8 +203,8 @@ The detection of RNA editing events in Visium data follows a process similar to 
   **Output**  
 
   - A BAM file after removing PCR duplicates and multi-mapped reads (`sample.bam`).
-
 <br>
+
 - **Step 2**:  Detection of RNA editing 
 
   **Input** 
