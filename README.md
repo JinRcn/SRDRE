@@ -21,9 +21,7 @@ The framework SRDRE (Spatially Resolved Detection of RNA Editing) was developed 
 ## Requirements
 
 - [Samtools](https://github.com/samtools/samtools)
-
 - [Perl](https://www.perl.org)
-
 <br>
 
 ## Installation
