@@ -49,9 +49,9 @@ SRDRE requires the following input data types:
 
   | Chromosome | Coordinate | Reference Base |
   | :---------- | :---------- | :-------------- |
-  | chr1       | 1234567    | A              |
-  | chr2       | 7654321    | C              |
-  | chrX       | 2345678    | G              |
+  | chr1       | 10098541    | A              |
+  | chr1       | 10105739    | A              |
+  | chr1       | 10105754    | A              |
 <br>
 
 ## Running
