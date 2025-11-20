@@ -56,6 +56,7 @@ SRDRE requires the following input data types:
 - **The annotation file** for mapping RNA editing sites to their spatial context, including tissue region and/or cell type.
 
   - Stereo-seq
+    
   | Coordinate   | Region | Cell type |
   | :---------  | :----- | :------ |
   |26032,74621  |  14r-l2 | Excitatory neurons |
@@ -63,6 +64,7 @@ SRDRE requires the following input data types:
   |25294,72091  |  14r-l1 | Inhibitory neurons |
 
   - Visium
+  
   | Barcode   | Region |
   | :---------  | :----- |
   |AAACAAGTATCTCCCA | Olfactory_area |
