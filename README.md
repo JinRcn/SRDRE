@@ -72,6 +72,14 @@ SRDRE requires the following input data types:
   |AAACACCAATAACTGC | Midbrain       |
 
 - For Visium, a tab-delimited file containing barcode-to-slide coordinates with three columns (Barcode, X, and Y coordinates) should be provided.
+  
+  | Barcode          | X    | Y    |
+  | :---------------- | :---- | :---- |
+  | AAACAACGAATAGTTC | 17   | 1    |
+  | AAACAAGTATCTCCCA | 103  | 51   |
+  | AAACAATCTACTAGCA | 44   | 4    |
+  | AAACACCAATAACTGC | 20   | 60   |
+
 
 ## Running
 ### Stereo-seq data
