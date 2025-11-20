@@ -52,7 +52,6 @@ SRDRE requires the following input data types:
   | chr1       | 10098541    | A              |
   | chr1       | 10105739    | A              |
   | chr1       | 10105754    | A              |
-<br>
 
 - **The annotation file** for mapping RNA editing sites to their spatial context, including tissue region and/or cell type.
 
