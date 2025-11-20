@@ -5,7 +5,7 @@ Users can rerun the analysis by following the step-by-step workflow below. Our t
 
 ## Data preparation
 
-All files required for detecting RNA A-to-I editing events in Visium data are provided in the `Demo/Visium` directory. Users only need to copy this directory as a whole.
+All files required for detecting A-to-I editing events in Visium data are provided in the `Demo/Visium` directory. Users only need to copy this directory as a whole.
 
 <mark>The only modification to note is that the BAM file should be download directly via link [mouse_brain.bam](https://github.com/JinRcn/SRDRE/raw/refs/heads/main/Demo/Visium/Data/mouse_brain.bam?download=) or by `git lfs pull` .</mark>
 
@@ -74,24 +74,17 @@ All output files can be found in the `Output` directory. The final processed res
 
 - A matrix contains assigned spatial annotations (`mouse_brain.REs.gz`)
 
-  | Coordinate | Chr   | Pos       | RefBase | Coverage | Edited | Area        |
+  | Coordinate | Chr   | Pos       | RefBase | Coverage | Edited | Region        |
   | :--------- | :---- | :-------- | :------ | :------- | :----- | :---------- |
   | 100,20     | chr1  | 143749562 | A       | 1        | 0      | Isocortex_1 |
   | 100,20     | chr11 | 72209575  | T       | 1        | 0      | Isocortex_1 |
   | 100,20     | chr12 | 100207186 | A       | 5        | 0      | Isocortex_1 |
 
-- A summary table presenting the RNA editing index for each brain area and cell type (`mouse_brain.REI.tsv`).
+- A summary table presenting the RNA editing index for each region and cell type (`mouse_brain.REI.tsv`).
 
   | Region       | Coverage | Edited | REI     |
   | :----------- | :------- | :----- | :------ |
   | CA1_CA2      | 16120    | 771    | 0.04783 |
   | CA3          | 14817    | 914    | 0.06169 |
   | Hypothalamus | 60348    | 3734   | 0.06187 |
-
-
-
-
-
-
-
 
