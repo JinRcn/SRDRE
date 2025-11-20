@@ -232,7 +232,7 @@ The detection of RNA editing events in Visium data follows a process similar to 
   
   **Output**  
   
-  - A count matrix of all detected RNA editing events in the spatial data (`mouse_brain.REs.gz`).
+  - A count matrix of all detected RNA editing events in the spatial data (`.REs.gz`).
     Each entry contains the X and Y spatial coordinates (**Coordinate**), where **Coverage** indicates the total number of reads covering the locus, while **Edited** represents the number of edited reads at that site. **Chr**, **Pos**, and **RefBase** denote the chromosome identifier, exact genomic position, and reference base of the known A-to-I editing site, respectively.
 
     | Coordinate    | Chr   | Pos       | RefBase | Coverage | Edited |
@@ -241,7 +241,7 @@ The detection of RNA editing events in Visium data follows a process similar to 
     | 100,20 | chr11 | 72209575  | T       | 1        | 0      |
     | 100,20 | chr12 | 100207186 | A       | 5        | 0      |
   
-  - A matrix recording the detected base and its Phred quality score for editing site within the given coordinates (`mouse_brain.sam2base.gz`).
+  - A matrix recording the detected base and its Phred quality score for editing site within the given coordinates (`.sam2base.gz`).
     **CoverBase** records the base detected at the editing site, and **Phred** represents the Phred quality score used for quality control.  
 
     | Coordinate    | Chr   | Pos       | RefBase | CoverBase | Phred |
@@ -277,7 +277,7 @@ The detection of RNA editing events in Visium data follows a process similar to 
   
   **Output** 
   
-  - A matrix contains assigned spatial annotations (`mouse_brain.REs.gz`).
+  - A matrix contains assigned spatial annotations (`.REs.gz`).
   
     | Coordinate  | Chr   | Pos       | RefBase | Coverage | Edited | Region        |
     | :------ | :----- | :--------- | :------- | :-------- | :------ | :----------- |
@@ -285,7 +285,7 @@ The detection of RNA editing events in Visium data follows a process similar to 
     | 100,20 | chr11 | 72209575  | T       | 1        | 0      | Isocortex_1 |
     | 100,20 | chr12 | 100207186 | A       | 5        | 0      | Isocortex_1 |
   
-  - A summary table presenting the RNA editing index for each brain area and cell type (`mouse_brain.REI.tsv`).
+  - A summary table presenting the RNA editing index for each region and cell type (`.REI.tsv`).
   
     | Region       | Coverage | Edited | REI     |
     | :------------ | :-------- | :------ | :------- |
