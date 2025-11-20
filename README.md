@@ -63,9 +63,11 @@ SRDRE requires the following input data types:
   |25294,72091  |  14r-l1 | Inhibitory neurons |
 
 --Visium
-  AAACAAGTATCTCCCA        Olfactory_area
-  AAACAATCTACTAGCA        Isocortex_1
-  AAACACCAATAACTGC        Midbrain
+  | Barcode   | Region |
+  | :---------  | :----- |
+  |AAACAAGTATCTCCCA | Olfactory_area |
+  |AAACAATCTACTAGCA | Isocortex_1    |
+  |AAACACCAATAACTGC | Midbrain       |
 
 - For Visium, a tab-delimited file containing barcode-to-slide coordinates with three columns (Barcode, X, and Y coordinates) should be provided.
 
