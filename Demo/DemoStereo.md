@@ -71,7 +71,7 @@ Below we provide a step-by-step explanation of what the script does:
 All output files can be found in the `Output` directory. The final processed results are in `Output/3.REsInfo`.
 - A matrix contains assigned spatial annotations (`macaque_cortex_14r.REs.gz`)
 
-  | Cod         | Chr   | Pos       | RefBase | Coverage | Edited | Region   | Celltype           |
+  | Cod         | Chr   | Pos       | RefBase | Coverage | Edited | Region   | Cell type           |
   | :----------- | :----- | :--------- | :------- | :-------- | :------ | :------ | :----------------- |
   | 20002,77405 | chr8  | 131520619 | T       | 1        | 0      | 14r-l1 | Excitatory neurons |
   | 20003,77362 | chr19 | 55074976  | A       | 1        | 0      | 14r-l1 | Excitatory neurons |
@@ -84,6 +84,7 @@ All output files can be found in the `Output` directory. The final processed res
   | 14r-l2 | Excitatory neurons | 285147   | 27096  | 0.09502 |
   | 14r-l2 | Inhibitory neurons | 63694    | 6402   | 0.10051 |
   | 14r-l3 | Excitatory neurons | 754936   | 75086  | 0.09502 |
+
 
 
 
