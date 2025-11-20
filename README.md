@@ -131,7 +131,7 @@ The detection of RNA editing events in Stereo-seq data involves three main steps
 
   - The `.REs.gz` file generated from Step 2.
   
-  - An annotation file of the Stereo-seq data.
+  - An annotation file.
   
   **Command**
   
@@ -141,7 +141,7 @@ The detection of RNA editing events in Stereo-seq data involves three main steps
   
   | Option        | Description                                                  |
   | :-------------- | :------------------------------------------------------------ |
-  | `--annotation `  | The annotation file of the Stereo-seq data, including spatial coordinates, cell-type annotations, etc. |
+  | `--annotation `  | The annotation file, including spatial coordinates, regional annotations, cell-type annotations, etc. |
   | `--input `       | The input file containing the detected RNA editing sites, generated from Step 2. |
   | `--outdir `      | The path to the output directory for results.                |
   | `--suffix `      | The suffix of the input file. [Default: REs.gz]              |
