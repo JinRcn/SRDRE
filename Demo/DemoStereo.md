@@ -69,7 +69,7 @@ Below we provide a step-by-step explanation of what the script does:
 ![OUTPUT](https://github.com/user-attachments/assets/604fadd5-82b4-4f08-9f7c-298f684284b7)
 
 All output files can be found in the `Output` directory. The final processed results are in `Output/3.REsInfo`.
-- A matrix contains assigned spatial annotations (`macaque_cortex_.REs.gz`)
+- A matrix contains assigned spatial annotations (`macaque_cortex_14r.REs.gz`)
 
   | Cod         | Chr   | Pos       | RefBase | Coverage | Edited | Region   | Celltype           |
   | :----------- | :----- | :--------- | :------- | :-------- | :------ | :------ | :----------------- |
@@ -77,13 +77,14 @@ All output files can be found in the `Output` directory. The final processed res
   | 20003,77362 | chr19 | 55074976  | A       | 1        | 0      | 14r-l1 | Excitatory neurons |
   | 20003,77370 | chr20 | 7610364   | A       | 2        | 0      | 14r-l1 | Excitatory neurons |
 
-- A summary table presenting the RNA editing index for each brain area and cell type (`macaque_cortex_.REI.tsv`).
+- A summary table presenting the RNA editing index for each brain area and cell type (`macaque_cortex_14r.REI.tsv`).
 
   | Region | Celltype           | Coverage | Edited | REI     |
   | :------ | :------------------ | :-------- | :------ | :------- |
   | 14r-l2 | Excitatory neurons | 285147   | 27096  | 0.09502 |
   | 14r-l2 | Inhibitory neurons | 63694    | 6402   | 0.10051 |
   | 14r-l3 | Excitatory neurons | 754936   | 75086  | 0.09502 |
+
 
 
 
