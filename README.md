@@ -170,7 +170,7 @@ The detection of RNA editing events in Stereo-seq data involves three main steps
 
 The only difference to note in Visium is that a **coordinate file** in tab-delimited format is **required** to map barcodes to their corresponding slide coordinates (`barcodes.tsv`).
 
-| barcode          | x    | y    |
+| Barcode          | X    | Y    |
 | :---------------- | :---- | :---- |
 | AAACAACGAATAGTTC | 17   | 1    |
 | AAACAAGTATCTCCCA | 103  | 51   |
