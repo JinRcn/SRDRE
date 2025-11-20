@@ -156,7 +156,7 @@ The detection of RNA editing events in Stereo-seq data involves three main steps
     | 20003,77362 | chr19 | 55074976  | A       | 1        | 0      | 14r-l1 | Excitatory neurons |
     | 20003,77370 | chr20 | 7610364   | A       | 2        | 0      | 14r-l1 | Excitatory neurons |
   
-  - A summary table presenting the RNA editing index for each brain area and cell type (`.REI.tsv`).
+  - A summary table presenting the RNA editing index for each region and cell type (`.REI.tsv`).
   
     | Region | Celltype           | Coverage | Edited | REI     |
     | :------ | :------------------ | :-------- | :------ | :------- |
