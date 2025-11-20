@@ -54,6 +54,14 @@ SRDRE requires the following input data types:
   | chr1       | 10105754    | A              |
 
 - **The annotation file** for mapping RNA editing sites to their spatial context, including tissue region and/or cell type.
+--Stereo-seq
+  26032,74621     14r-l2  Excitatory neurons
+  22002,77339     14r-l3  Excitatory neurons
+  25294,72091     14r-l1  Inhibitory neurons
+--Visium
+  AAACAAGTATCTCCCA        Olfactory_area
+  AAACAATCTACTAGCA        Isocortex_1
+  AAACACCAATAACTGC        Midbrain
 
 - For Visium, a tab-delimited file containing barcode-to-slide coordinates with three columns (Barcode, X, and Y coordinates) should be provided.
 
