@@ -269,7 +269,8 @@ The detection of RNA editing events in Visium data follows a process similar to 
   ```
   | Option        | Description                                                  |
   | :-------------- | :------------------------------------------------------------ |
-  | `--annotation `  | The annotation file of the Stereo-seq data, including spatial coordinates, cell-type annotations, etc. |
+  | `--barcode2slide ` | The file records the correspondence between barcodes and spatial coordinates. |
+  | `--annotation `  | The annotation file, including spatial coordinates, regional annotations, etc. |
   | `--input `       | The input file containing the detected RNA editing sites, generated from Step 2. |
   | `--outdir `      | The path to the output directory for results.                |
   | `--suffix `      | The suffix of the input file. [Default: REs.gz]              |
