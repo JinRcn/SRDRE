@@ -111,13 +111,13 @@ The detection of RNA editing events in Stereo-seq data involves three main steps
   - A count matrix of all detected RNA editing events in the spatial data (`.REs.gz`).
     Each entry contains the X and Y spatial coordinates (**Coordinate**), where **Coverage** indicates the total number of reads covering the locus, while **Edited** represents the number of edited reads at that site. **Chr**, **Pos**, and **RefBase** denote the chromosome identifier, exact genomic position, and reference base of the known A-to-I editing site, respectively.
   
-    | Coordinate   | Chr   | Pos       | RefBase | Read Bases | Edited |
+    | Coordinate   | Chr   | Pos       | RefBase | Coverage | Edited |
     | :----------- | :----- | :--------- | :------- | :-------- | :------ |
     | 20002,77405 | chr8  | 131520619 | T       | 1        | 0      |
     | 20003,77362 | chr19 | 55074976  | A       | 1        | 0      |
     | 20003,77370 | chr20 | 7610364   | A       | 2        | 0      |
   
-  - A matrix recording the detected base and its Phred quality score for editing site within the given coordinates (`.sam2base.gz`). **CoverBase** records the base detected at the editing site, and **Phred** represents the Phred quality score used for quality control.
+  - A matrix recording the detected base and its Phred quality score for editing site within the given coordinates (`.sam2base.gz`). **Read Bases** records the base detected at the editing site, and **Phred** represents the Phred quality score used for quality control.
   
     | Coordinate    | Chr   | Pos       | RefBase | Read Bases | Phred |
     | :----------- | :----- | :--------- | :------- | :--------- | :----- |
@@ -235,14 +235,14 @@ The detection of RNA editing events in Visium data follows a process similar to 
   - A count matrix of all detected RNA editing events in the spatial data (`.REs.gz`).
     Each entry contains the X and Y spatial coordinates (**Coordinate**), where **Coverage** indicates the total number of reads covering the locus, while **Edited** represents the number of edited reads at that site. **Chr**, **Pos**, and **RefBase** denote the chromosome identifier, exact genomic position, and reference base of the known A-to-I editing site, respectively.
 
-    | Coordinate    | Chr   | Pos       | RefBase | Read Bases | Edited |
+    | Coordinate    | Chr   | Pos       | RefBase | Coverage | Edited |
     | :------ | :----- | :--------- | :------- | :-------- | :------ |
     | 100,20 | chr1  | 143749562 | A       | 1        | 0      |
     | 100,20 | chr11 | 72209575  | T       | 1        | 0      |
     | 100,20 | chr12 | 100207186 | A       | 5        | 0      |
   
   - A matrix recording the detected base and its Phred quality score for editing site within the given coordinates (`.sam2base.gz`).
-    **CoverBase** records the base detected at the editing site, and **Phred** represents the Phred quality score used for quality control.  
+    **Read Bases** records the base detected at the editing site, and **Phred** represents the Phred quality score used for quality control.  
 
     | Coordinate    | Chr   | Pos       | RefBase | Read Bases | Phred |
     | :------ | :----- | :--------- | :------- | :--------- | :----- |
