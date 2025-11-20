@@ -54,6 +54,8 @@ SRDRE requires the following input data types:
   | chr1       | 10105754    | A              |
 <br>
 
+- **The annotation file** for mapping RNA editing sites to their spatial context, including tissue region and/or cell type.
+
 For Visium, a tab-delimited file containing barcode-to-slide coordinates with three columns (Barcode, X, and Y coordinates) should be provided.
 
 ## Running
