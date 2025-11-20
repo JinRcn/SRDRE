@@ -80,6 +80,7 @@ SRDRE requires the following input data types:
   | AAACAATCTACTAGCA | 44   | 4    |
   | AAACACCAATAACTGC | 20   | 60   |
 
+<br>
 
 ## Running
 ### Stereo-seq data
