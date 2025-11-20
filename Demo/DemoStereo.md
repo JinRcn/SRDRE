@@ -77,13 +77,14 @@ All output files can be found in the `Output` directory. The final processed res
   | 20003,77362 | chr19 | 55074976  | A       | 1        | 0      | 14r-l1 | Excitatory neurons |
   | 20003,77370 | chr20 | 7610364   | A       | 2        | 0      | 14r-l1 | Excitatory neurons |
 
-- A summary table presenting the RNA editing index for each brain area and cell type (`macaque_cortex_14r.REI.tsv`).
+- A summary table presenting the RNA editing index for each region and cell type (`macaque_cortex_14r.REI.tsv`).
 
   | Region | Celltype           | Coverage | Edited | REI     |
   | :------ | :------------------ | :-------- | :------ | :------- |
   | 14r-l2 | Excitatory neurons | 285147   | 27096  | 0.09502 |
   | 14r-l2 | Inhibitory neurons | 63694    | 6402   | 0.10051 |
   | 14r-l3 | Excitatory neurons | 754936   | 75086  | 0.09502 |
+
 
 
 
