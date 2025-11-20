@@ -150,7 +150,7 @@ The detection of RNA editing events in Stereo-seq data involves three main steps
   
   - A matrix contains assigned spatial annotations (`.REs.gz`)
   
-    | Coordinate    | Chr   | Pos       | RefBase | Coverage | Edited | Area   | Celltype           |
+    | Coordinate    | Chr   | Pos       | RefBase | Coverage | Edited | Region   | Celltype           |
     | :----------- | :----- | :--------- | :------- | :-------- | :------ | :------ | :------------------ |
     | 20002,77405 | chr8  | 131520619 | T       | 1        | 0      | 14r-l1 | Excitatory neurons |
     | 20003,77362 | chr19 | 55074976  | A       | 1        | 0      | 14r-l1 | Excitatory neurons |
@@ -279,7 +279,7 @@ The detection of RNA editing events in Visium data follows a process similar to 
   
   - A matrix contains assigned spatial annotations (`mouse_brain.REs.gz`).
   
-    | Coordinate  | Chr   | Pos       | RefBase | Coverage | Edited | Area        |
+    | Coordinate  | Chr   | Pos       | RefBase | Coverage | Edited | Region        |
     | :------ | :----- | :--------- | :------- | :-------- | :------ | :----------- |
     | 100,20 | chr1  | 143749562 | A       | 1        | 0      | Isocortex_1 |
     | 100,20 | chr11 | 72209575  | T       | 1        | 0      | Isocortex_1 |
