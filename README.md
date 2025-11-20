@@ -45,9 +45,9 @@ SRDRE requires the following input data types:
 
 - **Aligned sequencing reads** in sorted BAM format (`input.bam`).
 
-- **Known RNA editing sites** in tab-delimited format , including at least three columns: *Chromosome*, *Coordinate*, *Reference Base* (`knownSite`).
+- **Known RNA editing sites** in tab-delimited format , including at least three columns: *Chromosome*, *Position*, *Reference Base* (`knownSite`).
 
-  | Chromosome | Coordinate | Reference Base |
+  | Chromosome | Position | Reference Base |
   | :---------- | :---------- | :-------------- |
   | chr1       | 10098541    | A              |
   | chr1       | 10105739    | A              |
