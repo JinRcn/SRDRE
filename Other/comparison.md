@@ -22,5 +22,5 @@ We present a comparative analysis between SRDRE and the widely used REDItools. S
 
 ## Limitations
 
-We note that using REDItools-known sites as a ‘ground truth’ has limitations, as it may propagate tool-specific biases and false positives; alternative validation approaches—such as spike-in controls or datasets with matched DNA sequencing—would help strengthen future evaluations.
+We note that using REDItools-known sites as a ‘ground truth’ has limitations, as it may propagate tool-specific biases and false positives; alternative validation approaches, such as spike-in controls or datasets with matched DNA sequencing, would help strengthen future evaluations.
 
