@@ -3,6 +3,11 @@
 
 The framework SRDRE (Spatially Resolved Detection of RNA Editing) was developed to identify RNA editing events in spatial RNA sequencing data. To eliminate potential genomic single nucleotide polymorphisms (SNPs), a curated catalog of known A-to-I RNA editing events was utilized. For each spot, RNA editing detection was performed using the mapped BAM (Binary Alignment Map) file, which includes aligned sequencing reads and spatial coordinates. The analysis excluded PCR duplicate reads and reads aligned to multiple loci. In summary, SRDRE measured the frequency of A-to-G mismatches at each RNA editing site across spots, enabling in situ visualization of RNA editing events.
 
+## DOI
+Markdown
+[![DOI](https://zenodo.org/badge/1083057571.svg)](https://doi.org/10.5281/zenodo.21759253)
+<br>
+
 ![image](https://github.com/user-attachments/assets/336e7f97-03c7-4623-9b4b-b156d92b2650)
 
 <br>
@@ -336,13 +341,13 @@ The RNA editing index (REI), which reflects global RNA editing activity, is defi
 ## Citation
 
 <br>
-[![DOI](https://zenodo.org/badge/1083057571.svg)](https://doi.org/10.5281/zenodo.21759253)
-<br>
+
 
 ## Tools comparison
 [Comparative analysis](https://github.com/JinRcn/SRDRE/blob/main/Other/comparison.md)
 
 <br>
+
 
 ## Contact
 
