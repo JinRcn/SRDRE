@@ -336,7 +336,7 @@ The RNA editing index (REI), which reflects global RNA editing activity, is defi
 ## Citation
 
 <br>
-DOI: 10.5281/zenodo.21759254
+[![DOI](https://zenodo.org/badge/1083057571.svg)](https://doi.org/10.5281/zenodo.21759253)
 <br>
 
 ## Tools comparison
