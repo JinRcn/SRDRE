@@ -340,6 +340,8 @@ The RNA editing index (REI), which reflects global RNA editing activity, is defi
 
 ## Citation
 
+Chen, C., Yang, J., Zhu, Z. et al. Spatial transcriptomics reveals laminar and cell-type-specific A-to-I RNA editing signatures in the macaque cortex. Nat Commun 17, 10504 (2026). https://doi.org/10.1038/s41467-026-77434-y
+
 <br>
 
 
